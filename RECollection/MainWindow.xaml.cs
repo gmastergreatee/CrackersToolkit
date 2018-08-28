@@ -38,15 +38,24 @@ namespace RECollection
             position.SavePosition(Top, Left, Width, Height);
         }
 
-        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Left)
-                DragMove();
-        }
-
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private void Window_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                if (WindowState == WindowState.Maximized)
+                {
+                    WindowState = WindowState.Normal;
+                    var point = Mouse.GetPosition(this);
+                    Top = point.Y - TitleGrid.ActualHeight;
+                    Left = point.X - (ActualWidth * point.X) / SystemParameters.PrimaryScreenWidth;
+                }
+                DragMove();
+            }
         }
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RECollection"
         mc:Ignorable="d"
-        Title="Cracker's Toolkit" Height="350" Width="525" Initialized="Window_Initialized" Closing="Window_Closing" AllowsTransparency="True" WindowStyle="None" MouseDown="Window_MouseDown" ResizeMode="CanResizeWithGrip" MinWidth="300" MinHeight="150">
+        Title="Cracker's Toolkit" Height="350" Width="525" Initialized="Window_Initialized" Closing="Window_Closing" AllowsTransparency="True" WindowStyle="None" ResizeMode="CanResizeWithGrip" MinWidth="300" MinHeight="150" MouseMove="Window_MouseMove">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
