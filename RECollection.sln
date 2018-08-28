@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RECollection", "RECollection\RECollection.csproj", "{8878E0DF-80B6-4AB0-911F-FDB694DB4869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore", "DataStore\DataStore.csproj", "{7C51044A-9712-4E5A-B78F-4A79B5847DA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8878E0DF-80B6-4AB0-911F-FDB694DB4869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8878E0DF-80B6-4AB0-911F-FDB694DB4869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8878E0DF-80B6-4AB0-911F-FDB694DB4869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8878E0DF-80B6-4AB0-911F-FDB694DB4869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C51044A-9712-4E5A-B78F-4A79B5847DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C51044A-9712-4E5A-B78F-4A79B5847DA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C51044A-9712-4E5A-B78F-4A79B5847DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C51044A-9712-4E5A-B78F-4A79B5847DA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {047065DA-E8EA-46D6-9569-F37EF61D8FDE}
+	EndGlobalSection
+EndGlobal
